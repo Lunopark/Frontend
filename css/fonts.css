@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf')
+}
+@font-face{
+    font-family: 'Open Sans Extrabold';
+    src: url('../fonts/OpenSans-ExtraBold.ttf')
+}
+@font-face{
+    font-family: 'Open Sans Italic';
+    src: url('../fonts/OpenSans-Italic.ttf')
+}
+@font-face{
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/OpenSans-Regular.ttf')
+}
+@font-face{
+    font-family: 'Open Sans SemiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf')
+}
+@font-face{
+    font-family: 'Bebas Neue Bold';
+    src: url('../fonts/ofont.ru_Bebas\ Neue.ttf')
+}
+@font-face{
+    font-family: 'Bebas Neue Regular';
+    src: url('../fonts/BebasNeue-Regular.ttf')
+}

@@ -1,0 +1,13 @@
+/*Mobile*/
+.mobile-nav{
+    display: none;
+}
+i.fa-bars{
+    display: none;
+}
+.active-ul{
+    display: block !important;
+}
+.fa-bars::before{
+    content: "\f0c9";
+}

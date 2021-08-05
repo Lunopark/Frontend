@@ -1,0 +1,41 @@
+/*How section*/
+.how-send{
+    padding: 0;
+    text-align: center;
+
+    .how_title{
+        font-family: 'Open Sans Bold';
+        text-transform: uppercase;
+        font-size: 58px;
+        color: #2c5871;
+        margin-bottom: 0;
+    }
+    .how_subtitle{
+        font-family: 'Open Sans Italic';
+        font-size: 22px;
+        color: #2c5871;
+        margin-bottom: 50px;
+    }
+}
+/*Pills*/
+.pills{
+    display: flex;
+}
+.pill{
+    width: 25%;
+
+    .pill_title{
+        text-align: center;
+        color: #2c5871;
+        font-family: 'Bebas Neue Bold';
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .pill_text{
+        text-align: center;
+        font-family: 'Open Sans Regular';
+        font-size: 14px;
+        color: #7b7b7b;
+    }
+}
