@@ -591,7 +591,6 @@ ul.tabs__caption li {
   -webkit-transform: translate(-7%, 0);
   transform: translate(-7%, 0);
   background: url(../img/png/992-grafic.png) no-repeat left top 27px;
-  z-index: 1;
 }
 
 .block-col {
@@ -729,8 +728,6 @@ footer nav ul > li > a {
   background-position: left top;
   background: url(../img/icons/footer_vk.png) no-repeat left top;
 }
-
-
 
 /*Container*/
 .container {
