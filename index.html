@@ -11,8 +11,9 @@
 </head>
 <body>
 <!--Mobile menu-->
-<i class="fa fa-bars"></i>
+<i class="burger"></i>
 <nav class="mobile-nav">
+    <i class="close"></i>
     <ul>
         <li><a href="#">Главная</a></li>
         <li><a href="#">Возможности</a></li>
@@ -35,7 +36,7 @@
         <button type="button" class="btn-reg">Регистрация</button>
         <div class="lang grid hidden-768" data-drop="drop-bl">
             <a href="#">РУС</a>
-                <ul>
+                <ul class="language_select">
                     <li><a href="#">ENG</a></li>
                     <li><a href="#">РУС</a></li>
                 </ul>
@@ -132,13 +133,17 @@
         <div class="grid grid-50 grid-992-100 mainp-offer-tabs-bl">
                 <div class="tabs">
                     <ul class="tabs__caption">
-                        <li class="active"></li>
+                        <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                     </ul>
+                    <div class="tabs__content">
+                        <h3>Innovation document processing system</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend ac lectus et bibendum. Donec sed elit at erat placerat lacinia.</p>
+                    </div>
                 </div>
             </div>
         </div>   
@@ -146,6 +151,13 @@
 <footer>
     <div class="container">
         <a href="/" class="footer_logo"></a>
+        <div class="lang grid hidden-768" data-drop="drop-bl">
+            <a href="#">РУС</a>
+                <ul>
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">РУС</a></li>
+                </ul>
+        </div>
             <nav class="footer-nav">
                 <ul>
                     <li><a href="#">копирайт</a></li>
@@ -164,5 +176,19 @@
             </ul>
     </div>
 </footer>
+<footer class="mobile-footer">
+    <div class="container">
+    <a href="/" class="footer_copyright">ByFax копирайт</a>
+    <ul class="mobile_footer_icons">
+        <li>
+            <i class="footer_icons_item_twitter"></i>
+            <i class="footer_icons_item_facebook"></i>
+            <i class="footer_icons_item_vk"></i>
+        </li>
+    </ul>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
